@@ -30,7 +30,6 @@ public class TestFreeCrmAddContactTestExcelReadData extends TestBase{
 		loginPage = new LoginPage();
 		contactPage = new ContactsPage();
 	}
-	
 	@DataProvider
 	public Object[][] getData()
 	{
