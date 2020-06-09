@@ -1,0 +1,7 @@
+com\freecrm\pages\ContactsPage.class
+com\freecrm\pages\LoginPage.class
+com\freecrm\util\TestUtil.class
+com\freecrm\pages\HomePage.class
+com\freecrm\base\TestBase.class
+com\freecrm\pages\SignUpPage.class
+com\freecrm\util\WebEventListener.class

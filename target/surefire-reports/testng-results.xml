@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="104940" started-at="2020-06-09T23:02:59 IST" finished-at="2020-06-09T23:04:44 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="104940" started-at="2020-06-09T23:02:59 IST" finished-at="2020-06-09T23:04:44 IST">
+      <class name="com.freecrm.testcases.TestLoginFunctionality2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality2@5702b3b1]" name="setUp" is-config="true" duration-ms="8671" started-at="2020-06-09T23:04:31 IST" finished-at="2020-06-09T23:04:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality2@5702b3b1]" name="testLogin" duration-ms="4100" started-at="2020-06-09T23:04:39 IST" finished-at="2020-06-09T23:04:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality2@5702b3b1]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-06-09T23:04:43 IST" finished-at="2020-06-09T23:04:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freecrm.testcases.TestLoginFunctionality2 -->
+      <class name="com.freecrm.testcases.TestLoginFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality@25bbe1b6]" name="setUp" is-config="true" duration-ms="8361" started-at="2020-06-09T23:04:18 IST" finished-at="2020-06-09T23:04:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality@25bbe1b6]" name="testLogin" duration-ms="3837" started-at="2020-06-09T23:04:26 IST" finished-at="2020-06-09T23:04:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.TestLoginFunctionality@25bbe1b6]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-06-09T23:04:30 IST" finished-at="2020-06-09T23:04:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freecrm.testcases.TestLoginFunctionality -->
+      <class name="com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="setup" is-config="true" duration-ms="10385" started-at="2020-06-09T23:03:01 IST" finished-at="2020-06-09T23:03:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testReadExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="testReadExcelData" duration-ms="15759" started-at="2020-06-09T23:03:11 IST" data-provider="getData" finished-at="2020-06-09T23:03:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="tearDown" is-config="true" duration-ms="739" started-at="2020-06-09T23:03:27 IST" finished-at="2020-06-09T23:03:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="setup" is-config="true" duration-ms="8772" started-at="2020-06-09T23:03:27 IST" finished-at="2020-06-09T23:03:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testReadExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="testReadExcelData" duration-ms="15787" started-at="2020-06-09T23:03:36 IST" data-provider="getData" finished-at="2020-06-09T23:03:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepanshu ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singhal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-06-09T23:03:52 IST" finished-at="2020-06-09T23:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="setup" is-config="true" duration-ms="8155" started-at="2020-06-09T23:03:53 IST" finished-at="2020-06-09T23:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testReadExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="testReadExcelData" duration-ms="16216" started-at="2020-06-09T23:04:01 IST" data-provider="getData" finished-at="2020-06-09T23:04:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kapoor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData@ff5b51f]" name="tearDown" is-config="true" duration-ms="725" started-at="2020-06-09T23:04:17 IST" finished-at="2020-06-09T23:04:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freecrm.testcases.TestFreeCrmAddContactTestExcelReadData -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
