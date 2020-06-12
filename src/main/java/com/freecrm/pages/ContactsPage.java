@@ -9,7 +9,7 @@ import com.freecrm.base.TestBase;
 public class ContactsPage extends TestBase{
 
 	
-	@FindBy(xpath ="//span[contains(text(),'Contacts')]")
+	@FindBy(xpath ="//span[contains(text(),'Contacts123')]")
 	WebElement labelContacts;
 	
 	@FindBy(xpath ="//button[@class='ui linkedin button' and contains(text(),'New')]")

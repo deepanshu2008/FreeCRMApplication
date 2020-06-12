@@ -21,8 +21,9 @@ public class HomePage extends TestBase{
 			}
 
 		
-		public LoginPage clickLoginButton()
+		public LoginPage clickLoginButton() throws InterruptedException
 		{
+			if (isPresentAndDisplayed(buttonLogin))
 			buttonLogin.click();
 			return new LoginPage();
 		}

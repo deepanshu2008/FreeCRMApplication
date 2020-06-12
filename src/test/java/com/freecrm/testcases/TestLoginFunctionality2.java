@@ -27,7 +27,7 @@ public class TestLoginFunctionality2 extends TestBase{
 	}
 	
 	@Test
-	public void testLogin()
+	public void testLogin() throws InterruptedException
 	{
 		homePage.clickLoginButton();
 		loginPage.login(prop.getProperty("email"), prop.getProperty("password"));

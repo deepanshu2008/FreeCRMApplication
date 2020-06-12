@@ -24,8 +24,9 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public HomePage login(String email , String password)
+	public HomePage login(String email , String password) throws InterruptedException
 	{
+		Thread.sleep(5000);
 		textboxEmail.sendKeys(email);
 		textboxPassword.sendKeys(password);
 		buttonLogin_LoginPage.click();

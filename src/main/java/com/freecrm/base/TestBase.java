@@ -45,7 +45,7 @@ public class TestBase {
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
+ 		}
 		else if (browserName.equals("FF"))
 		{
 			System.setProperty("webdriver.gecko.driver", "C:\\Drivers\\ChromeDriver\\chromedriver_win32\\geckodriver.exe");
@@ -80,5 +80,21 @@ public class TestBase {
 	public static void closeSession()
 	{
 		driver.quit();
+	}
+	public static boolean isPresentAndDisplayed(WebElement element) throws InterruptedException
+	{
+		Thread.sleep(5000);
+		try 
+		{
+			if(element.isDisplayed())
+			{
+				return true;
+			}
+		}
+			catch(Exception e)
+			{
+				System.out.println("Element not present");
+			}
+		return false;
 	}
 }
